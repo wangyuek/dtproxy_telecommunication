@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DtProxyDll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP460.tmp" with contents
+[
+/nologo /Zp1 /MTd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /FR"Release/" /Fp"Release/DtProxyDll.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /GZ /c 
+"D:\wy\电信\电信接口文档\Dtproxydll_20120112(10001包月信息)\XmlNode.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP460.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP461.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"Release/DtProxyDll.pdb" /map:"Release/DtProxyDll.map" /debug /machine:I386 /def:".\DtProxyDll.def" /out:"Debug\DtProxyDll.dll" /implib:"Release/DtProxyDll.lib" /pdbtype:sept 
+".\Release\CommonFunc.obj"
+".\Release\DtProxyDll.obj"
+".\Release\NewLogFile.obj"
+".\Release\StdAfx.obj"
+".\Release\Xml.obj"
+".\Release\XmlNode.obj"
+".\Release\XmlNodes.obj"
+".\Release\Xsl.obj"
+".\Release\DtProxyDll.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP461.tmp"
+<h3>Output Window</h3>
+Compiling...
+XmlNode.cpp
+D:\wy\电信\电信接口文档\Dtproxydll_20120112(10001包月信息)\XmlNode.cpp(802) : error C2065: '_ttof' : undeclared identifier
+D:\wy\电信\电信接口文档\Dtproxydll_20120112(10001包月信息)\XmlNode.cpp(817) : error C2065: '_tstof' : undeclared identifier
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+DtProxyDll.dll - 2 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

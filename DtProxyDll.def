@@ -1,0 +1,19 @@
+; DtProxyDll.def : Declares the module parameters for the DLL.
+
+LIBRARY      "DtProxyDll"
+DESCRIPTION  'DtProxyDll Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+	DllTransIVRMsg				@1
+	DllTransAppSvrMsg			@2
+	DllIsApplyReplyMsg			@3
+	DllTransReplyMsg			@4
+	DllTransNoApplyReplyMsg		@5
+	DllGetApplyIndex			@6
+	DllGetReplyMsgType			@7
+	DllGetMsgLen				@8
+	DllGetStartMsg				@9
+	DllGetLoginMsg				@10
+	DllIsStartSucc				@11
+	DllIsLoginSucc				@12
